@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FF3D21E8-DA2E-4D51-BB87-40C0323D6E66}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DONEIN_NET.Site_Map</RootNamespace>
+    <AssemblyName>DONEIN_NET.Site_Map</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotNetNuke">
+      <HintPath>References\DotNetNuke.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>References\Telerik.Web.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins">
+      <HintPath>References\Telerik.Web.UI.Skins.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="base.ascx" />
+    <Content Include="images\aluminum\base.png" />
+    <Content Include="images\aluminum\empty.png" />
+    <Content Include="images\aluminum\folder.png" />
+    <Content Include="images\aluminum\folder_images.png" />
+    <Content Include="images\aluminum\folder_music.png" />
+    <Content Include="images\aluminum\folder_office.png" />
+    <Content Include="images\aluminum\folder_open.png" />
+    <Content Include="images\aluminum\folder_video.png" />
+    <Content Include="images\aluminum\join.png" />
+    <Content Include="images\aluminum\join_bottom.png" />
+    <Content Include="images\aluminum\line.png" />
+    <Content Include="images\aluminum\minus.png" />
+    <Content Include="images\aluminum\minus_bottom.png" />
+    <Content Include="images\aluminum\minus_no_line.png" />
+    <Content Include="images\aluminum\page.png" />
+    <Content Include="images\aluminum\plus.png" />
+    <Content Include="images\aluminum\plus_bottom.png" />
+    <Content Include="images\aluminum\plus_no_line.png" />
+    <Content Include="images\aluminum_dark_background\base.png" />
+    <Content Include="images\aluminum_dark_background\empty.png" />
+    <Content Include="images\aluminum_dark_background\folder.png" />
+    <Content Include="images\aluminum_dark_background\folder_images.png" />
+    <Content Include="images\aluminum_dark_background\folder_music.png" />
+    <Content Include="images\aluminum_dark_background\folder_office.png" />
+    <Content Include="images\aluminum_dark_background\folder_open.png" />
+    <Content Include="images\aluminum_dark_background\folder_video.png" />
+    <Content Include="images\aluminum_dark_background\join.png" />
+    <Content Include="images\aluminum_dark_background\join_bottom.png" />
+    <Content Include="images\aluminum_dark_background\line.png" />
+    <Content Include="images\aluminum_dark_background\minus.png" />
+    <Content Include="images\aluminum_dark_background\minus_bottom.png" />
+    <Content Include="images\aluminum_dark_background\minus_no_line.png" />
+    <Content Include="images\aluminum_dark_background\page.png" />
+    <Content Include="images\aluminum_dark_background\plus.png" />
+    <Content Include="images\aluminum_dark_background\plus_bottom.png" />
+    <Content Include="images\aluminum_dark_background\plus_no_line.png" />
+    <Content Include="images\book\base.gif" />
+    <Content Include="images\book\empty.gif" />
+    <Content Include="images\book\folder.gif" />
+    <Content Include="images\book\folder_open.gif" />
+    <Content Include="images\book\globe.gif" />
+    <Content Include="images\book\join.gif" />
+    <Content Include="images\book\join_bottom.gif" />
+    <Content Include="images\book\line.gif" />
+    <Content Include="images\book\minus.gif" />
+    <Content Include="images\book\minus_bottom.gif" />
+    <Content Include="images\book\minus_no_line.gif" />
+    <Content Include="images\book\page.gif" />
+    <Content Include="images\book\plus.gif" />
+    <Content Include="images\book\plus_bottom.gif" />
+    <Content Include="images\book\plus_no_line.gif" />
+    <Content Include="images\legacy\base.gif" />
+    <Content Include="images\legacy\empty.gif" />
+    <Content Include="images\legacy\folder.gif" />
+    <Content Include="images\legacy\folder_open.gif" />
+    <Content Include="images\legacy\globe.gif" />
+    <Content Include="images\legacy\join.gif" />
+    <Content Include="images\legacy\join_bottom.gif" />
+    <Content Include="images\legacy\line.gif" />
+    <Content Include="images\legacy\minus.gif" />
+    <Content Include="images\legacy\minus_bottom.gif" />
+    <Content Include="images\legacy\minus_no_line.gif" />
+    <Content Include="images\legacy\page.gif" />
+    <Content Include="images\legacy\plus.gif" />
+    <Content Include="images\legacy\plus_bottom.gif" />
+    <Content Include="images\legacy\plus_no_line.gif" />
+    <Content Include="images\_default\base.png" />
+    <Content Include="images\_default\empty.png" />
+    <Content Include="images\_default\folder.png" />
+    <Content Include="images\_default\folder_images.png" />
+    <Content Include="images\_default\folder_music.png" />
+    <Content Include="images\_default\folder_office.png" />
+    <Content Include="images\_default\folder_open.png" />
+    <Content Include="images\_default\folder_video.png" />
+    <Content Include="images\_default\join.png" />
+    <Content Include="images\_default\join_bottom.png" />
+    <Content Include="images\_default\line.png" />
+    <Content Include="images\_default\minus.png" />
+    <Content Include="images\_default\minus_bottom.png" />
+    <Content Include="images\_default\minus_no_line.png" />
+    <Content Include="images\_default\page.png" />
+    <Content Include="images\_default\plus.png" />
+    <Content Include="images\_default\plus_bottom.png" />
+    <Content Include="images\_default\plus_no_line.png" />
+    <Content Include="module.css" />
+    <Content Include="settings.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="base.ascx.designer.cs">
+      <DependentUpon>base.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\localization.cs" />
+    <Compile Include="App_Code\strings.cs" />
+    <Compile Include="base.ascx.cs">
+      <DependentUpon>base.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="settings.ascx.cs">
+      <DependentUpon>settings.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="settings.ascx.designer.cs">
+      <DependentUpon>settings.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\base.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\settings.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.config" />
+    <Content Include="SiteMap.dnn" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:61155/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
